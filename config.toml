@@ -1,4 +1,4 @@
-baseURL =  'https://example.org/'
+baseURL = 'https://nancyaq.github.io/vml-website/'
 languageCode = 'en-us'
 title = 'VML-BGU'
 theme='hugo-arcana'
