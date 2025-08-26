@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visual Media Lab on VML-BGU</title><link>https://example.org/</link><description>Recent content in Visual Media Lab on VML-BGU</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>About Our Lab</title><link>https://example.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/about/</guid><description>&lt;h1 id="welcome-to-the-visual-media-lab-vml">Welcome to the Visual Media Lab (VML)&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visual Media Lab on VML-BGU</title><link>https://nancyaq.github.io/vml-website/</link><description>Recent content in Visual Media Lab on VML-BGU</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://nancyaq.github.io/vml-website/index.xml" rel="self" type="application/rss+xml"/><item><title>About Our Lab</title><link>https://nancyaq.github.io/vml-website/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nancyaq.github.io/vml-website/about/</guid><description>&lt;h1 id="welcome-to-the-visual-media-lab-vml">Welcome to the Visual Media Lab (VML)&lt;/h1>
 &lt;h2 id="who-we-are">Who We Are&lt;/h2>
 &lt;p>The &lt;strong>Visual Media Lab (VML)&lt;/strong> at Ben-Gurion University is a research group dedicated to advancing the field of computer vision and multimedia analysis. We focus on developing innovative algorithms and systems for understanding and processing visual data across various domains.&lt;/p>
 &lt;h2 id="our-research-areas">Our Research Areas&lt;/h2>
@@ -6,7 +6,7 @@
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Document Analysis &amp;amp; Understanding&lt;/strong>&lt;br>
-Historical document processing, layout analysis, and text recognition in complex documents.&lt;/p></description></item><item><title>Contact Us</title><link>https://example.org/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/contact/</guid><description>&lt;p>Interested in collaborating on research projects or joining our lab? We&amp;rsquo;re always open to discussing new opportunities.&lt;/p>
+Historical document processing, layout analysis, and text recognition in complex documents.&lt;/p></description></item><item><title>Contact Us</title><link>https://nancyaq.github.io/vml-website/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nancyaq.github.io/vml-website/contact/</guid><description>&lt;p>Interested in collaborating on research projects or joining our lab? We&amp;rsquo;re always open to discussing new opportunities.&lt;/p>
 &lt;h2 id="opportunities">Opportunities&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>Research Collaboration:&lt;/strong> Partner with us on cutting-edge projects in computer vision.&lt;/li>
@@ -15,14 +15,14 @@ Historical document processing, layout analysis, and text recognition in complex
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="ready-to-connect">Ready to connect?&lt;/h2>
-&lt;p>Reach out to us directly and we&amp;rsquo;ll get back to you as soon as possible.&lt;/p></description></item><item><title>Meet Our Team</title><link>https://example.org/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/team/</guid><description>&lt;p>Welcome to the Visual Media Lab(VML) at Ben-Gurion University. Get to know the talented researchers behind our work.&lt;/p></description></item><item><title>Publications</title><link>https://example.org/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/publications/</guid><description>&lt;h1 id="publications">Publications&lt;/h1>
+&lt;p>Reach out to us directly and we&amp;rsquo;ll get back to you as soon as possible.&lt;/p></description></item><item><title>Meet Our Team</title><link>https://nancyaq.github.io/vml-website/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nancyaq.github.io/vml-website/team/</guid><description>&lt;p>Welcome to the Visual Media Lab(VML) at Ben-Gurion University. Get to know the talented researchers behind our work.&lt;/p></description></item><item><title>Publications</title><link>https://nancyaq.github.io/vml-website/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nancyaq.github.io/vml-website/publications/</guid><description>&lt;h1 id="publications">Publications&lt;/h1>
 &lt;h2 id="2024">2024&lt;/h2>
 &lt;h3 id="conference-papers">Conference Papers&lt;/h3>
 &lt;ol>
 &lt;li>
 &lt;p>&lt;strong>Nammneh, S.&lt;/strong>, Madi, B., &lt;strong>Atamni, N.&lt;/strong>, Boardman, S., Vasyutinsky-Shapira, D., &amp;amp; &lt;strong>El-Sana, J.&lt;/strong> &amp;ldquo;Detecting Spiral Text Lines in Aramaic Incantation Bowls.&amp;rdquo; In &lt;em>Proceedings of International Conference on Pattern Recognition&lt;/em>, pages 250-264, 2024.
 &lt;div class="pdf-link">
- &lt;a href="https://example.org/papers/icpr2024_spiral.pdf" target="_blank" class="pdf-button">
+ &lt;a href="https://nancyaq.github.io/vml-website/papers/icpr2024_spiral.pdf" target="_blank" class="pdf-button">
  &lt;span class="pdf-icon">📄&lt;/span>
  Download PDF
  &lt;/a>
@@ -31,7 +31,7 @@ Historical document processing, layout analysis, and text recognition in complex
 &lt;li>
 &lt;p>&lt;strong>Madi, B.&lt;/strong>, &lt;strong>Atamni, N.&lt;/strong>, Tsitrinovich, V., Vasyutinsky-Shapira, D., &lt;strong>El-Sana, J.&lt;/strong>, &amp;amp; others. &amp;ldquo;Automated Dating of Medieval Manuscripts with a New Dataset.&amp;rdquo; In &lt;em>Proceedings of International Conference on Document Analysis and Recognition&lt;/em>, pages 119-139, 2024.
 &lt;div class="pdf-link">
- &lt;a href="https://example.org/papers/icdar2024_dating.pdf" target="_blank" class="pdf-button">
+ &lt;a href="https://nancyaq.github.io/vml-website/papers/icdar2024_dating.pdf" target="_blank" class="pdf-button">
  &lt;span class="pdf-icon">📄&lt;/span>
  Download PDF
  &lt;/a>
