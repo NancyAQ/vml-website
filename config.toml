@@ -1,0 +1,58 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'VML-BGU'
+theme='hugo-arcana'
+defaultContentLanguage = "en"
+[languages]
+    [languages.en]
+        languageName = "English"
+        weight = 1
+
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    description = "A website for our lab, the visual media lab(VML-BGU)"
+    images = ['images/lab.jpg']
+    custom_css = ["css/custom.scss"]
+    show_post_dates = false
+       [[params.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        url = "https://github.com/AI-Computer-Vision-BGU"
+    [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 10
+
+
+[[menu.main]]
+  identifier = "team"
+  name = "Team"
+  url = "/team"
+  weight = 30
+
+[[menu.main]]
+  identifier = "publications"
+  name = "Publications"
+  url = "/publications"
+  weight = 40
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact"
+  weight = 50
+        [params.footer]
+
+        [[params.footer.links]]
+            header = "important links"
+        [[params.footer.links.links]]
+            title = "Google Scholar"
+            url = "https://scholar.google.com.hk/citations?user=gG4J-vcAAAAJ&hl=th"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

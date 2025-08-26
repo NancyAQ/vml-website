@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="post">
+    <header>
+        <h1>{{ .Title }}</h1>
+    </header>
+    <div class="content">
+        {{ .Content }} <!-- This renders the Markdown content -->
+    </div>
+    
+    <!-- Add the button directly in the layout -->
+    <div style="text-align: center; margin: 2rem 0;">
+        <a href="mailto:jelsana@bgu.ac.il?subject=Interest in VML Lab" class="button">
+            Contact Us via Email
+        </a>
+    </div>
+</article>
+{{ end }}
