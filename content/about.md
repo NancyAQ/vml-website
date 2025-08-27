@@ -6,7 +6,7 @@ type: "default"
 # Welcome to the Visual Media Lab (VML)
 
 
-## Who We Are
+## Who We Are(THIS IS ALL TO BE REPLACED)
 
 The **Visual Media Lab (VML)** at Ben-Gurion University is a research group dedicated to advancing the field of computer vision and multimedia analysis. We focus on developing innovative algorithms and systems for understanding and processing visual data across various domains.
 
@@ -35,7 +35,6 @@ Our mission is to push the boundaries of visual media understanding through fund
 
 - Preserve and analyze cultural heritage materials
 - Enhance human-computer interaction through better visual understanding
-- Advance medical imaging and diagnostic tools
 - Improve multimedia retrieval and organization systems
 
 ## Join Our Journey
