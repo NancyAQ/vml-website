@@ -14,7 +14,7 @@ layout: "publications"
     {{< pdf-link url="/papers/icpr2024_spiral.pdf" >}}
 
 2.  **Madi, B.**, **Atamni, N.**, Tsitrinovich, V., Vasyutinsky-Shapira, D., **El-Sana, J.**, & others. "Automated Dating of Medieval Manuscripts with a New Dataset." In *Proceedings of International Conference on Document Analysis and Recognition*, pages 119-139, 2024.
-    {{< pdf-link url="/papers/icdar2024_dating.pdf" >}}
+    {{< pdf-link url="/papers/Automated-Dating.pdf" >}}
 
 3.  **Alaasam, R.**, Madi, B., & **El-Sana, J.** "Text Enhancement for Historical Handwritten Documents." In *Proceedings of International Conference on Document Analysis and Recognition*, pages 397-412, 2024.
     {{< pdf-link url="/papers/icdar2024_enhancement.pdf" >}}
