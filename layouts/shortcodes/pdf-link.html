@@ -1,5 +1,6 @@
 <div class="pdf-link">
-  <a href="{{ .Get "url" }}" target="_blank" class="pdf-button">
+  <!-- Add ".Site.BaseURL" at the beginning of the URL -->
+  <a href="{{ .Site.BaseURL }}{{ .Get "url" }}" target="_blank" class="pdf-button">
     <span class="pdf-icon">📄</span>
     Download PDF
   </a>
