@@ -258,3 +258,70 @@
     margin: 1em 0 0 0 !important; 
     font-size: 0.9em !important; 
 }
+/* ============================================================
+   Projects Page Styling - Collapsible Hierarchy
+   ============================================================ */
+
+.projects-hierarchy {
+    margin: 2rem 0;
+}
+
+.main-project {
+    margin-bottom: 1rem;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden; /* Keeps the border radius on the button */
+}
+
+/* Style the clickable header */
+.collapsible {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.collapsible:hover {
+    background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+}
+.collapsible h2 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.4rem;
+}
+.toggle-icon {
+    transition: transform 0.3s ease;
+    font-size: 0.9rem;
+}
+.collapsible.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
+/* Style the hidden content */
+.collapsible-content {
+    display: none; /* Hidden by default */
+    padding: 1.5rem;
+    background-color: white;
+    border-top: 1px solid #e9ecef;
+}
+.collapsible-content p {
+    margin-bottom: 0.8rem;
+}
+
+/* Style the list of sub-projects */
+.sub-project {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px dashed #dee2e6;
+}
+.sub-project:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

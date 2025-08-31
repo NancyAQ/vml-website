@@ -1,0 +1,81 @@
+{{ define "main" }}
+    <article class="post">
+        <header>
+            <h1>{{ .Title }}</h1>
+        </header>
+        {{ .Content }}
+
+        <!-- This is the container for our collapsible project list -->
+        <div class="projects-hierarchy">
+            <!-- Range through all the main project sections (the folders) -->
+            {{ range .Sections.ByTitle }}
+                <div class="main-project">
+                    <!-- The clickable header for the main project -->
+                    <button class="collapsible" onclick="toggleCollapse(this)">
+                        <h2>{{ .Title }}</h2>
+                        <i class="toggle-icon">▼</i>
+                    </button>
+                    <!-- The content that will be collapsed/expanded -->
+                    <div class="collapsible-content">
+                        <!-- SAFE People display -->
+                        {{ with .Params.people }}
+                            <p><strong>People:</strong> {{ delimit . ", " }}</p>
+                        {{ else }}
+                            <p><strong>People:</strong> <em>To be announced</em></p>
+                        {{ end }}
+                        
+                        <!-- SAFE Description display -->
+                        {{ with .Params.description }}
+                            <p><strong>Description:</strong> {{ . }}</p>
+                        {{ end }}
+                        
+                        <!-- SAFE GitHub display (already safe) -->
+                        {{ if .Params.github }}<p><strong>GitHub:</strong> <a href="{{ .Params.github }}" target="_blank">{{ .Params.github }}</a></p>{{ end }}
+                        
+                        {{ .Content }} <!-- The main project's full description -->
+
+                        <h3>Sub-Projects:</h3>
+                        <ul>
+                            <!-- Range through all the pages (sub-projects) inside this main project folder -->
+                            {{ range .Pages.ByTitle }}
+                                <li class="sub-project">
+                                    <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>
+                                    
+                                    <!-- SAFE People display for sub-projects -->
+                                    {{ with .Params.people }}
+                                        <p><strong>People:</strong> {{ delimit . ", " }}</p>
+                                    {{ else }}
+                                        <p><strong>People:</strong> <em>To be announced</em></p>
+                                    {{ end }}
+                                    
+                                    <!-- SAFE Description display for sub-projects -->
+                                    {{ with .Params.description }}
+                                        <p>{{ . }}</p>
+                                    {{ end }}
+                                    <!-- You could add a 'Read more...' link here -->
+                                </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </article>
+
+    <!-- The JavaScript to make the collapsible sections work -->
+    <script>
+        function toggleCollapse(button) {
+            button.classList.toggle("active");
+            var content = button.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+                button.querySelector('.toggle-icon').textContent = '▼';
+            } else {
+                content.style.display = "block";
+                button.querySelector('.toggle-icon').textContent = '▲';
+            }
+        }
+        // Optional: Open the first project by default
+        // document.querySelector('.collapsible').click();
+    </script>
+{{ end }}

@@ -35,6 +35,12 @@ defaultContentLanguage = "en"
   weight = 30
 
 [[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 35
+  
+[[menu.main]]
   identifier = "publications"
   name = "Publications"
   url = "/publications"
