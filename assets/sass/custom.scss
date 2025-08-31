@@ -231,3 +231,30 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,123,255,0.3);
 }
+/* ============================================================
+   Custom adjustments for Menu and Footer
+   ============================================================ */
+
+
+#header {
+    padding-top: 1.5em !important; 
+}
+
+
+#nav .links li a {
+    padding: 0.5em 0.75em !important; 
+}
+
+#footer {
+    padding: 2em 0 !important; 
+}
+
+.footer-content {
+    padding: 0.5em 0 !important; 
+}
+
+
+.copyright {
+    margin: 1em 0 0 0 !important; 
+    font-size: 0.9em !important; 
+}
