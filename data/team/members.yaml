@@ -11,6 +11,15 @@
       linkedin: "jihade"
       github: "el-sana"
 
+- category: "Postdoctoral Students"
+  members:
+    - name: "Boraq Madi"
+      role: "Postdoctoral Student"
+      image: "images/team/noone.JPG"
+      bio: "Boraq is a very talented Phd student "
+      email: "https://mail.google.com/mail/?view=cm&fs=1&to=atamni@post.bgu.ac.il&su=Interest%20in%20VML%20Lab"
+      linkedin: "nour-atamni-599910173"
+      github: "atamnour"
 - category: "PhD Students"
   members:
     - name: "Nour Atamni"
@@ -27,7 +36,13 @@
       email: "https://mail.google.com/mail/?view=cm&fs=1&to=saeednaa@post.bgu.ac.il&su=Interest%20in%20VML%20Lab"
       linkedin: "saeed-naamneh-001113167"
       github: "SaeedYNaa"
-
+    - name: "Islam Amar"
+      role: "PhD Candidate"
+      image: "images/team/noone.JPG"
+      bio: "Islam is a very talented Phd student "
+      email: "https://mail.google.com/mail/?view=cm&fs=1&to=atamni@post.bgu.ac.il&su=Interest%20in%20VML%20Lab"
+      linkedin: "nour-atamni-599910173"
+      github: "atamnour"
 
 
 - category: "MSc Students"
@@ -74,3 +89,4 @@
       email: "https://mail.google.com/mail/?view=cm&fs=1&to=raziab@post.bgu.ac.il&su=Interest%20in%20VML%20Lab"
       linkedin: "razi-abd-a6308a244"
       github: "Razi191"
+
